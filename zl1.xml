@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest> 
+  <project name="device_leeco_zl1" path="device/leeco/zl1" remote="hga" />
+  <project name="device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="hga" />
+  <project name="kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="hga" />
+  <project name="proprietary_vendor_leeco" path="vendor/leeco" remote="hga" />
+</manifest>
+
