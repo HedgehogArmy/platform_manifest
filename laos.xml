@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest> 
+<project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="laos" />
+<project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="laos" >
+  <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+</project>
+</manifest>
+
