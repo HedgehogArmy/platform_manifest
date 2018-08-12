@@ -53,6 +53,7 @@
     <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="nos" />
     <project path="hardware/qcom/media-caf-msm8996" name="android_hardware_qcom_media-caf-msm8996" remote="nos" />
     <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="nos" />
+    <project path="hardware/nxp/nfc/" name="android_hardware_nxp_nfc" remote="nos" />
 
     <!-- vendor -->
     <project path="vendor/extras" name="vendor_extras" remote="hga" />
