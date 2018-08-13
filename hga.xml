@@ -46,8 +46,7 @@
 
     <!-- system -->
     <project path="system/core" name="system_core" remote="hga" />
-    <project path="system/bt" name="system_bt" remote="hga" />
-    
+
     <!-- frameworks -->
     <project path="frameworks/av" name="android_frameworks_av" remote="nos" />
     <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="nos" />
