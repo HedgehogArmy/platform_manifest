@@ -47,6 +47,10 @@
     <!-- system -->
     <project path="system/core" name="system_core" remote="hga" />
 
+    <!-- frameworks -->
+    <project path="frameworks/av" name="android_frameworks_av" remote="nos" />
+    <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="nos" />
+
     <!-- hardware -->
     <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nos" />
     <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="nos" />
@@ -57,6 +61,9 @@
     <project path="hardware/qcom/media-caf-msm8996" name="android_hardware_qcom_media-caf-msm8996" remote="nos" />
     <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="nos" />
     <project path="hardware/nxp/nfc/" name="android_hardware_nxp_nfc" remote="nos" />
+
+    <!-- prebuilts -->
+    <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="nos" />
 
     <!-- vendor -->
     <project path="vendor/extras" name="vendor_extras" remote="hga" />

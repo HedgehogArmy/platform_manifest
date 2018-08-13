@@ -48,6 +48,8 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="kernel/tests" />
+  <remove-project name="platform/prebuilts/build-tools" />
+
 
   <!-- External repos -->
   <remove-project name="platform/external/perfetto" />
@@ -55,6 +57,10 @@
 
   <!-- System repos -->
   <remove-project name="platform/system/core" />
+
+  <!-- Framework repos -->
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/compile/mclinker" />
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/qcom/audio" />
