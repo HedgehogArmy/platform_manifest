@@ -53,6 +53,9 @@
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/tinycompress" />
 
+  <!-- System repos -->
+  <remove-project name="platform/system/core" />
+
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />

@@ -44,6 +44,9 @@
     <project path="external/perfetto" name="external_perfetto" groups="pdk" remote="hga" />
     <project path="external/tinycompress" name="android_external_tinycompress" remote="nos" />
 
+    <!-- system -->
+    <project path="system/core" name="system_core" remote="hga" />
+
     <!-- hardware -->
     <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nos" />
     <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="nos" />
