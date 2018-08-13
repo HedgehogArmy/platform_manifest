@@ -62,6 +62,7 @@
     <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="nos" />
     <project path="hardware/nxp/nfc/" name="android_hardware_nxp_nfc" remote="nos" />
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="nos" />
+    <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="nos" />
 
     <!-- prebuilts -->
     <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="nos" />
