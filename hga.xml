@@ -75,6 +75,7 @@
     <!-- vendor -->
     <project path="vendor/extras" name="vendor_extras" remote="hga" />
     <project path="vendor/hedgehog" name="vendor_hedgehog" remote="hga" />
+    <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="laos" />
     <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="hga" />
     <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="hga" />
     <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="hga" />
