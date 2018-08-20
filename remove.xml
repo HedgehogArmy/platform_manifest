@@ -68,6 +68,7 @@
   <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/power" />
 
   <!-- Package repos -->
   <remove-project name="platform/packages/apps/Browser2" />
