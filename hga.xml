@@ -58,7 +58,7 @@
     <project path="system/core" name="system_core" remote="hga" />
 
     <!-- frameworks -->
-    <project path="frameworks/av" name="android_frameworks_av" remote="carbon" />
+    <project path="frameworks/av" name="frameworks_av" remote="hga" />
     <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="nos" />
 
     <!-- hardware -->
