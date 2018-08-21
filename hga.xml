@@ -23,6 +23,10 @@
     <remote name="carboncaf"
        fetch="https://github.com/CarbonBeta"
        revision="refs/heads/cr-7.0-caf-8996" />
+    
+    <remote name="pex"
+        fetch="https://github.com/PixelExperience-P"
+        revision="refs/heads/pie" />
 
     <!-- general -->
     <project path="build/make" name="build" remote="hga" >
@@ -48,13 +52,13 @@
 
     <!-- external -->
     <project path="external/perfetto" name="external_perfetto" groups="pdk" remote="hga" />
-    <project path="external/tinycompress" name="android_external_tinycompress" remote="nos" />
+    <project path="external/tinycompress" name="android_external_tinycompress" remote="carbon" />
 
     <!-- system -->
     <project path="system/core" name="system_core" remote="hga" />
 
     <!-- frameworks -->
-    <project path="frameworks/av" name="android_frameworks_av" remote="nos" />
+    <project path="frameworks/av" name="android_frameworks_av" remote="carbon" />
     <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="nos" />
 
     <!-- hardware -->
@@ -72,15 +76,15 @@
     <project path="hardware/qcom/power" name="hardware_qcom_power" remote="hga" />
 
     <!-- prebuilts -->
-    <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="nos" />
+    <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="carbon" />
 
     <!-- vendor -->
     <project path="vendor/extras" name="vendor_extras" remote="hga" />
     <project path="vendor/hedgehog" name="vendor_hedgehog" remote="hga" />
-    <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="nos" />
-    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="nos" />
+    <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="carbon" />
+    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="carbon" />
     <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="nos" />
-    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" />
+    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="carbon" />
 
 </manifest>
 
