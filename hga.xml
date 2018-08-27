@@ -20,13 +20,9 @@
        fetch="https://github.com/CarbonBeta"
        revision="refs/heads/cr-7.0" />
     
-    <remote name="carboncaf"
-       fetch="https://github.com/CarbonBeta"
+    <remote name="hga-caf-8996"
+       fetch="https://github.com/hedgehogarmy"
        revision="refs/heads/cr-7.0-caf-8996" />
-    
-    <remote name="pex"
-        fetch="https://github.com/PixelExperience-P"
-        revision="refs/heads/pie" />
 
     <!-- general -->
     <project path="build/make" name="build" remote="hga" >
@@ -64,11 +60,11 @@
     <!-- hardware -->
     <project path="hardware/libhardware" name="android_hardware_libhardware" remote="carbon" />
     <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="carbon" />
-    <project path="hardware/qcom/audio-caf-msm8996" name="android_hardware_qcom_audio" remote="carboncaf" />
+    <project path="hardware/qcom/audio-caf-msm8996" name="android_hardware_qcom_audio" remote="hga-caf-8996" />
     <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="carbon" />
-    <project path="hardware/qcom/display-caf-msm8996" name="android_hardware_qcom_display" remote="carboncaf" />
+    <project path="hardware/qcom/display-caf-msm8996" name="android_hardware_qcom_display" remote="hga-caf-8996" />
     <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="carbon" />
-    <project path="hardware/qcom/media-caf-msm8996" name="android_hardware_qcom_media" remote="carboncaf" />
+    <project path="hardware/qcom/media-caf-msm8996" name="android_hardware_qcom_media" remote="hga-caf-8996" />
     <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="carbon" />
     <project path="hardware/nxp/nfc/" name="android_hardware_nxp_nfc" remote="nos" />
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="carbon" />
